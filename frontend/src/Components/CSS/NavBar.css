@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--border-default);
+}
+
+.nav .menu-icon{
+    color: var(--text-primary);
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.nav .name{
+    color: var(--text-primary);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav .desc{
+    color: var(--text-secondary);
+}

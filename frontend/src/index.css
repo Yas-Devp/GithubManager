@@ -1,0 +1,45 @@
+:root {
+    /* Backgrounds */
+    --bg-primary: #0F172A;
+    --bg-secondary: #111827;
+    --bg-card: #1E293B;
+
+    /* Text */
+    --text-primary: #F8FAFC;
+    --text-secondary: #94A3B8;
+    --text-muted: #64748B;
+
+    /* Accent Colors */
+    --accent-main: #3B82F6;
+    --accent-main-hover: #2563EB;
+    --accent-success: #10B981;
+
+    /* Borders */
+    --border-default: #334155;
+    --border-strong: #475569;
+    --divider: #1F2937;
+
+    /* Icons */
+    --icon-default: #CBD5F5;
+    --icon-muted: #64748B;
+
+    /* Spacing (add these yourself) */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+
+    /* Border Radius */
+    --radius-md: 8px;
+    --radius-lg: 12px;
+}
+
+body {
+    background-color: var(--bg-primary);
+    font-family: 'poppins';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}

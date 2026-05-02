@@ -1,0 +1,44 @@
+.gitCard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--bg-card);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    min-width: 200px;
+    border-radius: 10px;
+    height: fit-content;
+    color: white;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 7px;
+}
+
+.options i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.options i:hover{
+    color: lightblue;
+}
+
+.options i:nth-child(1):hover{
+    color: red;
+}
+
+.repo-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+.repo-desc{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-secondary);
+}

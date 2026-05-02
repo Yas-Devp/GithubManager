@@ -1,0 +1,62 @@
+.field {
+    width: 60%;
+    background-color: var(--bg-card);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    border: 1px solid var(--border-default);
+    color: var(--text-muted);
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.field input {
+    width: 80%;
+    padding: 6px;
+    border: none;
+    color: var(--text-primary);
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.field input:focus {
+    outline: none;
+    border: none;
+}
+
+
+.field input::placeholder {
+    color: var(--text-muted);
+}
+
+.field button {
+    width: 20%;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    color: lightblue;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.field button:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.repos-count {
+    color: var(--text-secondary);
+    font-size: 16px;
+}
+
+.repos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 8px;
+    padding: 8px;
+}
